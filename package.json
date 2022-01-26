@@ -1,0 +1,23 @@
+{
+    "name": "activity-bot",
+    "version": "1.0.0",
+    "description": "Bot con la app LUIS para pedir comida en un restaurant",
+    "author": "Agustin Mastandrea",
+    "main": "index.js",
+    "scripts": {
+        "start": "node ./index.js",
+        "watch": "nodemon ./index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/agusmastan02/ActivityBot.git"
+    },
+    "dependencies": {
+        "botbuilder": "~4.6.0",
+        "botbuilder-ai": "~4.6.0",
+        "botbuilder-dialogs": "~4.6.0",
+        "botbuilder-testing": "~4.6.0",
+        "dotenv": "^8.2.0",
+        "restify": "~8.4.0"
+    }
+}

@@ -1,0 +1,210 @@
+{
+    "luis_schema_version": "4.0.0",
+    "versionId": "1.0",
+    "name": "azuremolikf",
+    "desc": "Sample app for MOL",
+    "culture": "es-es",
+    "tokenizerVersion": "1.0.0",
+    "intents": [
+      {
+        "name": "saludos"
+      },
+      {
+        "name": "None"
+      },
+      {
+        "name": "pedirComida"
+      },
+      {
+        "name": "verEstado"
+      },
+      {
+        "name": "mostrarMenu"
+      }
+    ],
+    "entities": [
+      {
+        "name": "tipoMilanesa"
+      }
+    ],
+    "composites": [],
+    "closedLists": [],
+    "patternAnyEntities": [],
+    "regex_entities": [],
+    "prebuiltEntities": [],
+    "model_features": [],
+    "regex_features": [],
+    "patterns": [],
+    "utterances": [
+      {
+        "text": "puedo ver mi pedido",
+        "intent": "verEstado",
+        "entities": []
+      },
+      {
+        "text": "tenes milanesa?",
+        "intent": "mostrarMenu",
+        "entities": []
+      },
+      {
+        "text": "buenas tardes",
+        "intent": "saludos",
+        "entities": []
+      },
+      {
+        "text": "hola",
+        "intent": "saludos",
+        "entities": []
+      },
+      {
+        "text": "buenas",
+        "intent": "saludos",
+        "entities": []
+      },
+      {
+        "text": "que tal",
+        "intent": "saludos",
+        "entities": []
+      },
+      {
+        "text": "cuanto falta para mi pedido?",
+        "intent": "verEstado",
+        "entities": []
+      },
+      {
+        "text": "buenas noches",
+        "intent": "saludos",
+        "entities": []
+      },
+      {
+        "text": "quisiera una milanesa a caballo",
+        "intent": "pedirComida",
+        "entities": [
+          {
+            "entity": "tipoMilanesa",
+            "startIndex": 11,
+            "endIndex": 19
+          }
+        ]
+      },
+      {
+        "text": "esta lista mi milanesa?",
+        "intent": "verEstado",
+        "entities": []
+      },
+      {
+        "text": "ver minutas",
+        "intent": "mostrarMenu",
+        "entities": []
+      },
+      {
+        "text": "una milanesa napolitana",
+        "intent": "pedirComida",
+        "entities": [
+          {
+            "entity": "tipoMilanesa",
+            "startIndex": 4,
+            "endIndex": 9
+          }
+        ]
+      },
+      {
+        "text": "pedir comida",
+        "intent": "pedirComida",
+        "entities": []
+      },
+      {
+        "text": "pedir milanesa sola",
+        "intent": "pedirComida",
+        "entities": [
+          {
+            "entity": "tipoMilanesa",
+            "startIndex": 6,
+            "endIndex": 14
+          }
+        ]
+      },
+      {
+        "text": "te pido una milanesa",
+        "intent": "pedirComida",
+        "entities": []
+      },
+      {
+        "text": "ver estado del pedido",
+        "intent": "verEstado",
+        "entities": []
+      },
+      {
+        "text": "ver el menu",
+        "intent": "mostrarMenu",
+        "entities": []
+      },
+      {
+        "text": "que hay para elegir?",
+        "intent": "mostrarMenu",
+        "entities": []
+      },
+      {
+        "text": "ver menu",
+        "intent": "mostrarMenu",
+        "entities": []
+      },
+      {
+        "text": "ver milanesas",
+        "intent": "mostrarMenu",
+        "entities": []
+      },
+      {
+        "text": "ver estado",
+        "intent": "verEstado",
+        "entities": []
+      },
+      {
+        "text": "milanesa con papas fritas",
+        "intent": "pedirComida",
+        "entities": [
+          {
+            "entity": "tipoMilanesa",
+            "startIndex": 0,
+            "endIndex": 5
+          }
+        ]
+      },
+      {
+        "text": "que hay en el menu",
+        "intent": "mostrarMenu",
+        "entities": []
+      },
+      {
+        "text": "que puedo pedir?",
+        "intent": "mostrarMenu",
+        "entities": []
+      },
+      {
+        "text": "que milanesas tenes?",
+        "intent": "mostrarMenu",
+        "entities": []
+      },
+      {
+        "text": "que hay para comer?",
+        "intent": "mostrarMenu",
+        "entities": []
+      },
+      {
+        "text": "que onda",
+        "intent": "saludos",
+        "entities": []
+      },
+      {
+        "text": "cuando va a estar lista mi milanesa",
+        "intent": "verEstado",
+        "entities": []
+      },
+      {
+        "text": "donde esta mi comida?",
+        "intent": "verEstado",
+        "entities": []
+      }
+    ],
+    "settings": []
+  }
